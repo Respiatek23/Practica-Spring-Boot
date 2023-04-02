@@ -1,0 +1,18 @@
+﻿body
+{
+}
+table {
+
+    opacity: 0.4;
+    color: brown;
+    background-color:white;
+    
+}
+table:is(:hover)
+{
+    opacity:1;
+}
+
+tr:hover {
+        background-color:chartreuse;
+}

@@ -1,0 +1,60 @@
+﻿/* Estilos para el cuerpo de la página */
+body {
+    font-family: Arial, sans-serif; /* Define la fuente a utilizar */
+    margin: 0; /* Elimina el margen predeterminado */
+    padding: 0; /* Elimina el relleno predeterminado */
+    background-color: #f5f5f5; /* Define el color de fondo */
+}
+
+/* Estilos para los encabezados */
+h1, h2, h3 {
+    font-weight: bold; /* Define el grosor de fuente */
+    color: #333; /* Define el color de fuente */
+}
+
+/* Estilos para los enlaces */
+a {
+    color: #007bff; /* Define el color de los enlaces */
+    text-decoration: none; /* Elimina el subrayado predeterminado */
+}
+
+    a:hover {
+        text-decoration: underline; /* Agrega subrayado al pasar el cursor sobre un enlace */
+    }
+
+/* Estilos para la navegación */
+nav {
+    background-color: #333; /* Define el color de fondo */
+}
+
+    nav ul {
+        margin: 0; /* Elimina el margen predeterminado */
+        padding: 0; /* Elimina el relleno predeterminado */
+        list-style: none; /* Elimina la viñeta predeterminada */
+        display: flex; /* Crea un contenedor flex */
+    }
+
+    nav li {
+        margin: 0; /* Elimina el margen predeterminado */
+    }
+
+    nav a {
+        display: block; /* Convierte el enlace en un elemento de bloque */
+        padding: 10px; /* Añade relleno */
+        color: #fff; /* Define el color de fuente */
+    }
+
+        nav a:hover {
+            background-color: #007bff; /* Cambia el color de fondo al pasar el cursor sobre el enlace */
+        }
+
+/* Estilos para las secciones */
+section {
+    margin: 20px; /* Añade un margen alrededor de las secciones */
+}
+
+/* Estilos para las imágenes */
+img {
+    max-width: 100%; /* Asegura que las imágenes no sean más anchas que su contenedor */
+    height: auto; /* Ajusta la altura de la imagen automáticamente */
+}
