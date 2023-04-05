@@ -28,16 +28,14 @@ Ejecutar microservicio en una terminal
 
 El servicio actualmente implementa un servicio que admite como parámetro en la URL (Query-param) el nombre *"name"*. Este campo no es obligatorio.
 
-Mostrar pagina *"index.html"*
+Mostrar pagina de Gatos 
 
-> http://localhost:8888/
+> http://localhost:8888/HtmlPage5.html
 
-Invocar operación *"healthCheck"*
 
-> http://localhost:8888/api/health?name=demo
 
  
 
 ## Nuevas funcionalidades
 
-TBD
+He usado spring Boot para que en vez de llamar a la api desde Javascript pase por el servidor, y le he añadido un filtro despues de recibir la informacion de la api la cual me dice si ha recibido un objeto de manera correcta, tambien he añadido un error handleling para redireccionar cuando a la pagina 
