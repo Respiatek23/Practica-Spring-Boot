@@ -19,7 +19,7 @@ public class Tests {
     @Test
     public void User_ok(){
 
-        User U=new User(2,"apodo","nombre", "apellido","correo");
+        User U=new User("nombre", "apellido","correo");
         myService.SetUSER(U);
         assertEquals(1,myService.findUser(U));
     }
