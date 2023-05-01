@@ -11,9 +11,10 @@
 package edu.comillas.icai.pat.ejemplopat.controler;
 
 
+import edu.comillas.icai.pat.ejemplopat.DAO.User;
+import edu.comillas.icai.pat.ejemplopat.DTO.Usuario;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 import edu.comillas.icai.pat.ejemplopat.service.MyService;
 
@@ -28,11 +29,16 @@ public class HealthCheckController {
 	
 	@GetMapping("/gato")
 	public Object gato() throws Exception {
-		Object o = myService.getHealthCheck();
+		Object o = myService.getHealthCheck("https://api.thecatapi.com/v1/images/search");
 		if (o == null)
 		{
 			throw new Exception();
 		}
 		return o;
+	}
+	@GetMapping("/Users")
+	public Iterable<User> MostrarUsuarios()
+	{
+		return myService.MostrarUsers();
 	}
 }
