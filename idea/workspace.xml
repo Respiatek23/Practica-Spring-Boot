@@ -13,9 +13,18 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="HTML File" />
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -33,16 +42,26 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File" value="JavaScript" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/src/test/java" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources/static" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Juan\Downloads\example-springboot-master\src\main\resources\static" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Juan\Downloads\example-springboot-master\src\main\resources\static" />
+      <recent name="C:\Users\Juan\Downloads\example-springboot-master\idea\.idea" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="edu.comillas.icai.pat.ejemplopat" />
+    </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Unnamed">
     <configuration name="Unnamed" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="edu.comillas.icai.pat.ejemplopat.EjemplopatApplication" />
       <module name="ejemplopat" />
@@ -50,6 +69,76 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="EjemplopatApplicationTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ejemplopat" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="edu.comillas.icai.pat.ejemplopat.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="edu.comillas.icai.pat.ejemplopat" />
+      <option name="MAIN_CLASS_NAME" value="edu.comillas.icai.pat.ejemplopat.EjemplopatApplicationTests" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EjemplopatApplicationTests.User_NOT_Ok" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ejemplopat" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="edu.comillas.icai.pat.ejemplopat.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="edu.comillas.icai.pat.ejemplopat" />
+      <option name="MAIN_CLASS_NAME" value="edu.comillas.icai.pat.ejemplopat.EjemplopatApplicationTests" />
+      <option name="METHOD_NAME" value="User_NOT_Ok" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EjemplopatApplicationTests.User_ok" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ejemplopat" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="edu.comillas.icai.pat.ejemplopat.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="edu.comillas.icai.pat.ejemplopat" />
+      <option name="MAIN_CLASS_NAME" value="edu.comillas.icai.pat.ejemplopat.EjemplopatApplicationTests" />
+      <option name="METHOD_NAME" value="User_ok" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Tests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ejemplopat" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="edu.comillas.icai.pat.ejemplopat.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="edu.comillas.icai.pat.ejemplopat" />
+      <option name="MAIN_CLASS_NAME" value="edu.comillas.icai.pat.ejemplopat.Tests" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.Tests" />
+        <item itemvalue="JUnit.EjemplopatApplicationTests" />
+        <item itemvalue="JUnit.EjemplopatApplicationTests.User_ok" />
+        <item itemvalue="JUnit.EjemplopatApplicationTests.User_NOT_Ok" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
